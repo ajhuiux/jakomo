@@ -77,6 +77,7 @@ if (iw > 641) {
 
   new Swiper('.swiper-container.mediaG', {
     slidesPerView: 4,
+    slidesPerGroup: 4,
     spaceBetween: 30,
     autoplay: {
       delay: 3000,
@@ -110,6 +111,7 @@ else if (iw < 641) {
   new Swiper('.swiper-container.mediaG', {
     direction: 'vertical',
     slidesPerView: 1,
+    slidesPerGroup: 1,
     spaceBetween: 50,
     loop: true,
     navigation: {
